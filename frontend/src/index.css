@@ -18,7 +18,6 @@ input:focus {
 
 #userInterface {
   inset: 25px;
-  position: fixed;
   border-radius: 16px;
   z-index: 1;
   margin-left: 3rem;
@@ -30,8 +29,8 @@ input:focus {
 #form-id {
   display: flex;
   flex-direction: column;
-  width: 26.5%;
-  gap: .3rem;
+  width: 30rem;
+  gap: .7rem;
 }
 
 #form-id button {
@@ -50,6 +49,18 @@ input:focus {
   cursor: pointer;
   background-color: rgb(73, 73, 237);
   transition-duration: .3s;
+}
+
+#projectedSavings {
+  height: 100%;
+  width: 46%;
+  inset: 25px;
+  border-radius: 16px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  justify-content: center;
 }
 
 

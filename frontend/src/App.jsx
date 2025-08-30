@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import UserInterface from './components/userInterface';
+import ProjectedSavings from './components/ProjectedSavings';
 
 function App() {
   return (
@@ -9,9 +10,10 @@ function App() {
       <div id = 'bg-outer' />
       <div id = 'bg-inner' />
 
-      <main id = 'app-content'>
+      <div id = 'app-content'>
         <UserInterface />
-      </main>
+        <ProjectedSavings />
+      </div>
     </>
   );
   
