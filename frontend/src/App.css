@@ -27,6 +27,12 @@
     justify-content: space-between;
   }
 
+  #projected-savings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .vert {
     width: 2px;
     background-color: blue;
